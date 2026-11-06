@@ -9,14 +9,12 @@ Receipt/
 └── tests/          # Your unit tests
 ```
 
-Experiment #1 (planned: 10/17/26)
-1. Launch program &rarr; Browse images or b. Find by filename 
-2. Select active receipt &rarr; show image while processing
-3. Retrieve existing database record &rarr; Process as if new receipt entry else display saved info 
-    * Saved info &rarr; View, Add, Edit, Delete, History
-4. Check info before accepting it
-    * Consider temp stash (resume function) if program exits accidentally
-5. Persist changes &rarr; Add info into receipt records and audit log
-    * Receipt records structure &rarr; Merchant, Transaction date, Subtotal, Tax, Total paid
-    * Audit log structure &rarr; When (date/time), What (category), value change (prior, new state)
-6. Return to receipt selection or exit
+[Receipt Image Dataset](https://expressexpense.com/blog/free-receipt-images-ocr-machine-learning-dataset/)
+
+Experiment #1 (modified: 10/26/26)
+<br> → Manual import of receipt images 
+<br> → Image render + keyboard navigation GUI
+<br> → Search imported receipt images visually or filename
+<br> → manual receipt data entry by user 
+<br> → store data 
+<br> → user can view, edit, or delete specific receipt data
